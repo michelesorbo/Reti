@@ -75,3 +75,5 @@ l1 = [3,7,9,5]
 istogramma(l1)
 istogramma(nomi)
 istogramma([4,7,9])
+
+print("Inizo Git")
