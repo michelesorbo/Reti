@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova HTML</title>
+</head>
+<body>
+
+    <h1>Titolo</h1>
+    <p>Marcatore Paragrafo</p>
+    <table border="1">
+        <tr><!--Riga-->
+            <td>Cella</td>
+            <td>Celle</td>
+        </tr>
+        <tr><!--Riga-->
+            <td>Cella</td>
+            <td><b>Celle</b></td>
+        </tr>
+    </table>
+
+    <div id="par1"></div>
+
+
+    <script>
+        const par1 = document.getElementById("par1")
+        for(let i = 0; i<= 10; i++){
+            par1.innerHTML += "<p>" + i + "</p>"
+        }
+    </script>
+</body>
+</html>
